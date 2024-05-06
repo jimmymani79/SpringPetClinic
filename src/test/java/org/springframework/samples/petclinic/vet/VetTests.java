@@ -28,7 +28,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 public class VetTests {
 
     @Test
-    public void testSerialization()
+    public void testSerialization() {
         Vet vet = new Vet();
         vet.setFirstName("Zaphod");
         vet.setLastName("Beeblebrox");
